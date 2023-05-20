@@ -9,6 +9,7 @@ const getAllShops = asyncHandler(async (req, res) => {
     console.log("Shop fetched!!!".green.bold);
     //send data to frontend in json format
     res.send(orders);
+    console.log("hello");
   } else {
     console.log("Failed fetch Shop !!!".red.bold);
     //send error message to frontend
